@@ -1,0 +1,103 @@
+How to run:
+
+patients dataset files are in google drive  (2.64 GB)
+
+open colab
+run :
+from google.colab import drive
+drive.mount('/content/drive')            //to connect drive to colab
+
+upload files on colab:
+main.py, models.py, data_loader.py, medical_extractor.py, real_extracter.py
+
+run:
+!pip install mne
+!pip install scikit-learn pandas
+!pip install imbalanced-learn
+!python real_extractor.py
+!python medical_extractor.py
+!python data_loader.py
+
+!python main.py
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+journey:
+
+read
+cathcing flaws
+single jupyter notebook flaw
+syntex error , type errors,  
+separation of coding files on VS code 
+signal or points in files of data set being converted into 
+creation of dummy data of same numbering  from original dataset files 
+running AI models  ( random forest , KNN
+succeed
+
+time to run real data set , 2.64 GB
+data download ( failed 
+
+switching from VS code to Google collab
+google drive mounted to save data files
+awscli tool installed on collab 
+
+connect it with own google drive
+download files from database server of open Neuro which is in AWS servers 
+cloude to cloude transfering 
+open neuro to Google drive 
+data downloaded
+
+running execution of files one by one 
+crashed server RAM at 11th file
+
+new code executed 
+again started execution
+again crashed at 11th file due to large set of numbers pouints in specific patient brain signal data
+
+code rewashed
+again process repeated
+succedsfuly started next file execution
+
+all files executed succesfully 
+
+participants.tsv imported from github repo/ open neuro data set ___ in google collab
+
+
+run: !python main.py
+
+KNN accuracy 55%
+KNN show very less accuracy due to its simplicity and complexity of dataset of EEG files
+
+we converted to alternate model to increasse or maximize our aacuracy 
+
+SVM accuracy 65%
+
+problem figured out :
+AI model need more data to train to improve accuracy
+
+models used: 
+SVM, Random Forest, Gradient Boosting, SMOTE, Cross-Validation
+
+training & testing strategy :
+two models intergrated for better voting 
+model trained on 90% real data and tested on 10% real data but with 10 iterations  
+
+Libraries installed:
+mne
+pygsp
+networkX
