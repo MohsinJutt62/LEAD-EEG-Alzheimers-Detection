@@ -9,7 +9,7 @@ This repository contains the official implementation of the **LEAD-EEG** framewo
 
 The major challenge in medical data processing is memory limitations. This framework is highly hardware-optimized, utilizing MNE lazy-loading and mathematical feature expansion (extracting 125 complex features from 4 foundational signals) to completely eliminate Out-of-Memory (OOM) crashes on standard machines.
 
-##Images
+## Images
 <img width="778" height="447" alt="{48FF7C40-F914-472F-A3C4-FE3E7B34051B}" src="https://github.com/user-attachments/assets/d92feec8-36ee-4283-b9b1-f1b72eaddc57" />
 
 
@@ -25,7 +25,6 @@ The major challenge in medical data processing is memory limitations. This frame
 3. **Data Balancing:** Integrated SMOTE within a 10-Fold Stratified Cross-Validation loop.
 4. **Ensemble Classifier:** A Soft Voting architecture combining **Random Forest** and **Gradient Boosting**.
 
-*(You can upload your architecture diagram image here in the repo and link it)*
 
 ## 🏆 Final Classification Results (10-Fold CV)
 | Class | Precision | Recall | F1-Score | Support |
@@ -37,4 +36,4 @@ The major challenge in medical data processing is memory limitations. This frame
 ## ⚙️ How to Run on Your Machine
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YourUsername/LEAD-EEG-Alzheimers-Detection.git](https://github.com/YourUsername/LEAD-EEG-Alzheimers-Detection.git)
+   git clone [https://github.com/MohsinJutt62/LEAD-EEG-Alzheimers-Detection.git](https://github.com/YourUsername/LEAD-EEG-Alzheimers-Detection.git)
