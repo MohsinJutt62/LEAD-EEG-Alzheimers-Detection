@@ -10,7 +10,8 @@ This repository contains the official implementation of the **LEAD-EEG** framewo
 The major challenge in medical data processing is memory limitations. This framework is highly hardware-optimized, utilizing MNE lazy-loading and mathematical feature expansion (extracting 125 complex features from 4 foundational signals) to completely eliminate Out-of-Memory (OOM) crashes on standard machines.
 
 ##Images
-<img width="1395" height="755" alt="Ensemble (Random Forest aur Gradient Boosting)" src="https://github.com/user-attachments/assets/4df837d8-90a6-41c6-8eab-537b9d237a61" />
+<img width="778" height="447" alt="{48FF7C40-F914-472F-A3C4-FE3E7B34051B}" src="https://github.com/user-attachments/assets/d92feec8-36ee-4283-b9b1-f1b72eaddc57" />
+
 
 ## 📊 Dataset Specifications
 * **Source:** OpenNeuro (ds004504)
